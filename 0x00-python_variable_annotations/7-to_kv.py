@@ -5,7 +5,7 @@ from typing import Tuple, Union
 import math
 
 
-def to_kv(k: str, v: Union[int, float]) -> Tuple[str, Union[int, float]]:
+def to_kv(k: str, v: Union[int, float]) -> Tuple[str, float]:
     '''
     Function to return a tuple with the key and the square root of the value
     '''
