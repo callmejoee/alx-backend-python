@@ -5,6 +5,7 @@ from typing import Tuple, List, Any
 
 
 def zoom_array(lst: Tuple[Any, ...], factor: int = 2) -> Tuple[Any, ...]:
+    ''' Task 5 module '''
     zoomed_in: List[Any] = [
         item for item in lst
         for _ in range(factor)
